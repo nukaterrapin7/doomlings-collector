@@ -1,3 +1,9 @@
-export default function Page() {
-  return <h1>Doomlings Tracking System</h1>
+import Layout from "./components/layout";
+
+export default function Home() {
+    return (
+        <Layout>
+        <h1>Doomlings Collection Tracker</h1>
+        </Layout>
+    );
 }
