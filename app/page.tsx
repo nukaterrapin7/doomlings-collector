@@ -1,9 +1,7 @@
-import Layout from "./components/layout";
+import Navbar from "./Navbar";
 
 export default function Home() {
     return (
-        <Layout>
         <h1>Doomlings Collection Tracker</h1>
-        </Layout>
     );
 }
