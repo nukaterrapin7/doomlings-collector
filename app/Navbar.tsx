@@ -10,14 +10,11 @@ function Navbar() {
   return (
     <nav className="flex space-x-6 border-b mb-5 px-5 h-14 items-center">
       <ul className="flex space-x-6">
-        <li>
+        <li className="flex space-x-6">
           <Link href="/">Home</Link>
-        </li>
-        <li>
           <Link href="/archive">Archive</Link>
-        </li>
-        <li>
           <Link href="/collection">My Collection</Link>
+          Trade/Sale List
         </li>
       </ul>
     </nav>
